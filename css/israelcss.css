@@ -1,0 +1,51 @@
+/*.datoscontacto {
+	float: left;
+	margin: 1em;
+}
+
+.tinfoclinica {
+	clear: left;
+}
+
+.datosinfoclinica {
+	float: left;
+}
+
+.imagenclass {
+	width: 10%;
+}
+
+.infopersonal {
+	width: 40%;
+}
+
+.infosecundaria {
+	width: 40%;
+}
+
+
+.formparticular {
+	clear: both;
+}
+
+.alinearlabel {
+	float: left;
+}
+.alinearinputs {
+	float: right;
+	width: 60%;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+input[type=text]{
+	background-color: #ffffff;
+}
