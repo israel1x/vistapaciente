@@ -22,7 +22,7 @@
 	  </head>
 	  <body>
 	  	<div class="container-fluid">
-	  		<div class="col-sm-3 col-lg-2">
+	  		<!-- <div class="col-sm-3 col-lg-2">
 	  			<nav class = "navbar navbar-default navbar-fixed-side" role = "navigation">
 
 		  			<div class = "navbar-header">
@@ -43,8 +43,9 @@
 			  			</ul>
 			  		</div>
 	  			</nav>
-	  		</div>
-	  		<div class="col-sm-9 col-lg-10">
+	  		</div> -->
+	  		<!-- <div class="col-sm-9 col-lg-10"> -->
+	  		<div>
   				<div>
 					<div>
 						<h1>Nuevo Registro Paciente</h1>
@@ -59,7 +60,7 @@
 								<div class="col-sm-2">
 								<!-- <div class="datoscontacto imagenclass"> -->
 									<form>
-										<div class="form-group">
+										<div class="form-group" id="dataphoto">
 											<img src="img/profile.png">
 											<div>
 												<label for="exampleInputFile">Subir Archivo</label>
@@ -72,136 +73,154 @@
 							
 								<div class="col-sm-5">
 								    <div class="form-group">
-								        <label for="MainContent_text_reg_nombre" class="col-sm-4 control-label">Empresa*:</label>
+								        <label  class="col-sm-4 control-label">Nombres</label>
 								        <div class="col-sm-8">
-								            <input name="ctl00$MainContent$text_reg_nombre" id="MainContent_text_reg_nombre" class="form-control" type="text">
+								            <input  class="form-control inputbasic" type="text">
 								        </div>
 								    </div>
 								    <div class="form-group">
-								        <label for="MainContent_text_reg_telefono" class="col-sm-4 control-label">Teléfono:</label>
+								        <label  class="col-sm-4 control-label">Apellidos</label>
 								        <div class="col-sm-8">
-								            <input name="ctl00$MainContent$text_reg_telefono" id="MainContent_text_reg_telefono" class="form-control" type="text">
+								            <input  class="form-control inputbasic" type="text">
 								        </div>
 								    </div>
 								    <div class="form-group">
-								        <label for="MainContent_text_reg_email" class="col-sm-4 control-label">Email:</label>
+								        <label  class="col-sm-4 control-label">Ced/RUC</label>
 								        <div class="col-sm-8">
-								            <input name="ctl00$MainContent$text_reg_email" id="MainContent_text_reg_email" class="form-control" type="text">
+								            <input class="form-control inputbasic" type="text">
 								        </div>
 								    </div>
 								    <div class="form-group">
-								        <label for="MainContent_text_reg_web" class="col-sm-4 control-label">Web:</label>
+								        <label class="col-sm-4 control-label">Fecha nac</label>
 								        <div class="col-sm-8">
-								            <input name="ctl00$MainContent$text_reg_web" id="MainContent_text_reg_web" class="form-control" type="text">
+								            <input class="form-control inputbasic" type="text">
+								        </div>
+								    </div>
+									<div class="form-group">
+								        <label for="MainContent_text_reg_cp" class="col-sm-4 control-label">Cont emerg</label>
+								        <div class="col-sm-8">
+								            <input class="form-control inputbasic" type="text">
 								        </div>
 								    </div>
 								</div>
 								<div class="col-sm-5">
 								    <div class="form-group">
-								        <label for="MainContent_text_reg_direccion" class="col-sm-4 control-label">Dirección:</label>
+								        <label class="col-sm-4 control-label">Telf fijo</label>
 								        <div class="col-sm-8">
-								            <input name="ctl00$MainContent$text_reg_direccion" id="MainContent_text_reg_direccion" class="form-control" onkeyup="sync()" type="text">
+								            <input class="form-control inputcontact" type="text">
 								        </div>
 								    </div>
 								    <div class="form-group">
-								        <label for="MainContent_text_reg_localidad" class="col-sm-4 control-label">Localidad:</label>
+								        <label class="col-sm-4 control-label">Celular</label>
 								        <div class="col-sm-8">
-								            <input name="ctl00$MainContent$text_reg_localidad" id="MainContent_text_reg_localidad" class="form-control" onkeyup="sync()" type="text">
+								            <input class="form-control inputcontact" type="text">
 								        </div>
 								    </div>
 								    <div class="form-group">
-								        <label for="MainContent_text_reg_provincia" class="col-sm-4 control-label">Provincia:</label>
+								        <label class="col-sm-4 control-label">Email</label>
 								        <div class="col-sm-8">
-								            <input name="ctl00$MainContent$text_reg_provincia" id="MainContent_text_reg_provincia" class="form-control" onkeyup="sync()" type="text">
+								            <input class="form-control inputcontact" type="text">
 								        </div>
 								    </div>
 								    <div class="form-group">
-								        <label for="MainContent_text_reg_cp" class="col-sm-4 control-label">CP:</label>
+								        <label for="MainContent_text_reg_cp" class="col-sm-4 control-label">Domicilio</label>
 								        <div class="col-sm-8">
-								            <input name="ctl00$MainContent$text_reg_cp" id="MainContent_text_reg_cp" class="form-control" onkeyup="sync()" type="text">
+								            <input class="form-control inputcontact" type="text">
+								        </div>
+								    </div>
+									<div class="form-group">
+								        <label for="MainContent_text_reg_cp" class="col-sm-4 control-label">Telf contacto</label>
+								        <div class="col-sm-8">
+								            <input class="form-control inputcontact" type="text">
 								        </div>
 								    </div>
 								</div>
 							</div>
 					</section>
 					<section>
-						<div class="tinfoclinica">
+						<!-- <div class="tinfoclinica"> -->
 						<h2>Informacion Clinica</h2>
 						<hr>
 							<div class="form-horizontal">
-							<div class="col-sm-6">
-							    <div class="form-group">
-							        <label for="MainContent_text_reg_nombre" class="col-sm-4 control-label">Empresa*:</label>
-							        <div class="col-sm-8">
-							            <input name="ctl00$MainContent$text_reg_nombre" id="MainContent_text_reg_nombre" class="form-control" type="text">
-							        </div>
-							    </div>
-							    <div class="form-group">
-							        <label for="MainContent_text_reg_telefono" class="col-sm-4 control-label">Teléfono:</label>
-							        <div class="col-sm-8">
-							            <input name="ctl00$MainContent$text_reg_telefono" id="MainContent_text_reg_telefono" class="form-control" type="text">
-							        </div>
-							    </div>
-							    <div class="form-group">
-							        <label for="MainContent_text_reg_email" class="col-sm-4 control-label">Email:</label>
-							        <div class="col-sm-8">
-							            <input name="ctl00$MainContent$text_reg_email" id="MainContent_text_reg_email" class="form-control" type="text">
-							        </div>
-							    </div>
-							    <div class="form-group">
-							        <label for="MainContent_text_reg_web" class="col-sm-4 control-label">Web:</label>
-							        <div class="col-sm-8">
-							            <input name="ctl00$MainContent$text_reg_web" id="MainContent_text_reg_web" class="form-control" type="text">
-							        </div>
-							    </div>
-							</div>
-							<div class="col-sm-6">
-							    <div class="form-group">
-							        <label for="MainContent_text_reg_direccion" class="col-sm-4 control-label">Dirección:</label>
-							        <div class="col-sm-8">
-							            <input name="ctl00$MainContent$text_reg_direccion" id="MainContent_text_reg_direccion" class="form-control" onkeyup="sync()" type="text">
-							        </div>
-							    </div>
-							    <div class="form-group">
-							        <label for="MainContent_text_reg_localidad" class="col-sm-4 control-label">Localidad:</label>
-							        <div class="col-sm-8">
-							            <input name="ctl00$MainContent$text_reg_localidad" id="MainContent_text_reg_localidad" class="form-control" onkeyup="sync()" type="text">
-							        </div>
-							    </div>
-							    <div class="form-group">
-							        <label for="MainContent_text_reg_provincia" class="col-sm-4 control-label">Provincia:</label>
-							        <div class="col-sm-8">
-							            <input name="ctl00$MainContent$text_reg_provincia" id="MainContent_text_reg_provincia" class="form-control" onkeyup="sync()" type="text">
-							        </div>
-							    </div>
-							    <div class="form-group">
-							        <label for="MainContent_text_reg_cp" class="col-sm-4 control-label">CP:</label>
-							        <div class="col-sm-8">
-							            <input name="ctl00$MainContent$text_reg_cp" id="MainContent_text_reg_cp" class="form-control" onkeyup="sync()" type="text">
-							        </div>
-							    </div>
-							</div>
-						<div class="tinfoclinica">
-							<div>
-								<div class="datosinfoclinica">
-									<form>
-										<div class="form-group">
-											<label for="exampleInputEmail1">Enfermedades</label>
-											<textarea class="form-control" rows="2"></textarea>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label class="col-sm-4 control-label">Sexo</label>
+										<div class="col-sm-8">
+											<!-- <input class="form-control" type=""> -->
+											<!-- <div class="form-group"> -->
+											  <select class="form-control" >
+												<option>Sleccionar</option>
+												<option>Masculino</option>
+												<option>Femenino</option>
+											  </select>
+											<!-- </div> -->
 										</div>
-									</form>
+									</div>
+									<div class="form-group">
+										<label class="col-sm-4 control-label">Tipo Sangre</label>
+										<div class="col-sm-8">
+											<select class="form-control" >
+												<option>Sleccionar</option>
+												<option>O+</option>
+												<option>B+</option>
+												<option>B-</option>
+											  </select>
+										</div>
+									</div>
 								</div>
-								<div class="datosinfoclinica">
-									<form>
-										<div class="form-group">
-											<label for="exampleInputEmail1">Observaciones y comentarios</label>
-											<textarea class="form-control" rows="2"></textarea>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label  class="col-sm-4 control-label">Alergias a medicamentos</label>
+										<div class="form-horizontal">
+											<div class="col-sm-8">
+												<select class="form-control" >
+													<option>Si</option>
+													<option>No</option>
+												</select>
+												<!-- <div> -->
+													<!-- <input class="form-control" type="text"> -->
+												<!-- </div> -->
+											</div>
 										</div>
-									</form>
+
+									</div>
+									<div class="form-group">
+										<label class="col-sm-4 control-label">Otras Alergias</label>
+										<div class="col-sm-8">
+											<select class="form-control" data-width="15%" >
+													<option>Si</option>
+													<option>No</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							<div class="tinfoclinica">
+								<div class="form-horizontal">
+									<div class="col-sm-6">
+										<div class="datosinfoclinica">
+											<form>
+												<div class="form-group">
+													<label for="exampleInputEmail1">Enfermedades</label>
+													<textarea class="form-control" rows="2"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									
+									<div class="col-sm-6">
+										<div class="datosinfoclinica">
+											<form>
+												<div class="form-group">
+													<label for="exampleInputEmail1">Observaciones y comentarios</label>
+													<textarea class="form-control" rows="2"></textarea>
+												</div>
+											</form>
+										</div>
+									</div>
+									
 								</div>
 							</div>
 						</div>
-					</div>
 					</section>
 				</div>
 	  				
