@@ -1,6 +1,6 @@
-body{
+/*body{
   	font-family: 'Montserrat';
- }
+ }*/
 
  h1 {
  	/*font-family: 'Montserrat';*/
@@ -15,8 +15,16 @@ body{
  	font-weight: bold;
  }
 
+/*
 .container-fluid {
-	/*font-family: 'Montserrat';*/
+	font-family: 'Montserrat';
+	margin-left:  1.5%;
+	margin-top:   .3%;
+	margin-right: .1%;
+}*/
+
+#newpatientcontainer {
+	font-family: 'Montserrat';
 	margin-left:  1.5%;
 	margin-top:   .3%;
 	margin-right: .1%;
@@ -31,8 +39,7 @@ body{
 	padding-top: 2.5%;
 	margin: 1%;
 	margin-top: 2%;
-	float: left;
-	
+	float: left;	
 }
 
 #btncancelar {
@@ -43,9 +50,49 @@ body{
 
 }
 
+#btncancelarnewpat {
+	background: #be1e2d;
+    color: #ffffff;
+}
 
+#btnsavenewpat {
+	background-color: #1d3651;
+}
 
+.selectfontc {
+	background-color: #FFFFFF;
+	opacity: 0.4;
+	border-radius: 0px;
+}
 
+.textareaf:focus {
+	background-color: white;
+    opacity: 1;
+}
+
+.btntextwiht {
+	color: white;
+	text-decoration-color: white;
+}
+
+.textlabels {
+	color: #1d3651;
+}
+
+#inputdia {
+	padding-right: 5px;
+	padding-left: 0px;
+}
+
+#inputmes {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#inputanio {
+	padding-right: 0px;
+	padding-left: 5px;
+}
 
 .cabezerapaciente {
 	display: inline-block;
@@ -110,8 +157,16 @@ img {
 	display: none;
 }
 */
-input[type=text]  {
-	color: #ffffff;
+input[type=text] {
+	background-color: #FFFFFF;
+	opacity: 0.4;
+	border: 1px;
+	border-radius: 0px;
+}
+
+input[type=text]:focus {
+    background-color: white;
+    opacity: 1;
 }
 
 .inputbasic {
