@@ -2,19 +2,10 @@
   	font-family: 'Montserrat';
  }*/
 
- h1 {
- 	/*font-family: 'Montserrat';*/
- 	/*font-size: 300%;*/
- 	color: white;
+.titulosfont {
+	color: white;
  	font-weight: bold;
- }
-
- h2 {
- 	/*font-size: 260%;*/
- 	color: white;
- 	font-weight: bold;
- }
-
+}
 /*
 .container-fluid {
 	font-family: 'Montserrat';
@@ -30,12 +21,11 @@
 	margin-right: .1%;
 }
 
-#dosbtns {
-	text-align: center;
-	/*display: inline-block;*/
+.dosbtns {
+	margin-top: 2%;
 }
 
-#btnguardar {
+/*#btnguardar {
 	padding-top: 2.5%;
 	margin: 1%;
 	margin-top: 2%;
@@ -49,7 +39,7 @@
 	float: left;
 
 }
-
+*/
 #btncancelarnewpat {
 	background: #be1e2d;
     color: #ffffff;
@@ -144,19 +134,10 @@
 	margin: .6%;
 }
 
-img {
-    
-    
-}
-
 .input-file {
 	display: none;
 }
 
-/*#input-photo {
-	display: none;
-}
-*/
 input[type=text] {
 	background-color: #FFFFFF;
 	opacity: 0.4;
@@ -183,42 +164,3 @@ input[type=text]:focus {
 	margin: .6%;
 	margin-bottom: 12%;
 }
-
-/*.datoscontacto {
-	float: left;
-	margin: 1em;
-}
-
-.tinfoclinica {
-	clear: left;
-}
-
-.datosinfoclinica {
-	float: left;
-}
-
-.imagenclass {
-	width: 10%;
-}
-
-.infopersonal {
-	width: 40%;
-}
-
-.infosecundaria {
-	width: 40%;
-}
-
-
-.formparticular {
-	clear: both;
-}
-
-.alinearlabel {
-	float: left;
-}
-.alinearinputs {
-	float: right;
-	width: 60%;
-}
-*/
