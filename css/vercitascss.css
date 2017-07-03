@@ -64,11 +64,60 @@
 	background-color: #50bfa3;
 }
 
+#modalcitadeldiax {
+	border-radius: 15%;
 
-
-
-.scrollbar {
-	/*width: 300px;
-    height: 200px;*/
-	/*overflow: scroll;*/
 }
+
+#colorheadermodal {
+	background-color: #1d3651;
+}
+
+#textmodalcolor {
+	text-align: center;
+	color: white;
+}
+
+.tituloscitas {
+	text-align: left;
+	color: #50bfa3;
+}
+
+#modalbodycontenedor {
+	padding-top: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.rectificar {
+	display: inline-block;
+}
+
+.datoscitasmf {
+	text-align: right;
+	color: #1d3651;
+	float: right;
+}
+
+.textareacitam {
+	color:  #1d3651;
+}
+
+#btnvcitainiciar {
+	background-color: #50bfa3;
+}
+
+#btnvcitaagendar {
+	background-color: #58a545;
+}
+
+#btnvcitacancelar {
+	background-color: #be1e2d; 
+}
+
+#footermodalvcita {
+	text-align: center;
+}
+
+
+
